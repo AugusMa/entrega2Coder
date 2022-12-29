@@ -1,0 +1,363 @@
+/* Globales */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 8rem 0 3rem 8rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+h3 {
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+/** header index **/
+.p-header {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-left: 8rem;
+}
+
+.header {
+    background-image: url(../img/hero.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+
+.logo {
+    width: 13rem;
+    height: auto;
+    margin-left: 10rem;
+}
+
+.bg-nav {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.color-nav-a {
+    color: #ffffff;
+}
+
+.nav-link {
+    font-size: 2rem;
+    margin-right: 7rem;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    margin-right: 6rem;
+    
+}
+
+.navbar-collapse {
+    margin-left: 5rem;
+}
+
+@media (max-width:1400px){
+    .p-header {
+        color: #ffffff;
+        font-size: 2rem;
+        margin-left: 8rem;
+    }
+    
+    .header {
+        background-image: url(../img/hero-2.png);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        min-height: 60rem;
+    }
+    .header h1 {
+        font-size: 2.7rem;
+        font-weight: 600;
+        color: #ffffff;
+        margin: 8rem 0 3rem 6rem;
+        text-transform: uppercase;
+    }
+    .p-header {
+        color: #ffffff;
+        font-size: 1.7rem;
+        margin: 0 0 0 6rem;
+        width: 70%;
+        font-weight: bold;
+    }
+    
+    .logo {
+        width: 13rem;
+        height: auto;
+        margin-left: 3.5rem;
+        padding: 0;
+    }
+    
+    .bg-nav {
+        background-color: rgba(0, 0, 0, .6);
+    }
+    
+    .color-nav-a {
+        color: #ffffff;
+    }
+}
+
+/** propiedades destacadas index **/
+.imagen-propiedad {
+    width: 40rem;
+    height: auto;
+    margin: 2rem auto;
+    display: block;
+}
+
+@media (max-width:768px){
+    .imagen-propiedad {
+        width: 35rem;
+        height: auto;
+        margin: 2rem auto;
+        display: block;
+    }
+}
+
+.propiedades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 3rem;
+}
+
+.propiedad {
+    background-color: rgba(0, 0, 0, .05);
+    margin: 2rem 0;
+    padding: 0 2rem;
+    border-radius: 20px;
+    transition: ease-in-out .2s;
+}
+
+.propiedad:hover {
+    transform: scale(1.08);
+}
+
+.texto-propiedad {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.precio {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.boton {
+    background-color: #fa5c06;
+    margin: 5rem 0;
+    padding: 1.2rem 3rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 2rem;
+    border-radius: 1.5rem;
+    transition: ease .3s;
+}
+
+.boton-propiedades {
+    display: flex;
+    justify-content: center;
+}
+
+.boton:hover {
+    background-color: #9a400f;
+    color: #ffffff;
+}
+
+/** contacto index **/
+.contacto {
+    background-color: rgba(0, 0, 0, .05);
+    
+}
+
+.titulo-contacto {
+    padding: 0.6rem 0;
+}
+
+.seccion-contacto {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    width: 65rem;
+    height: 55rem;
+    border: none;
+    border-radius: 2rem;
+    margin: 0 2rem 5rem 5rem;
+}
+
+.p-contacto {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 10rem;
+}
+
+@media (max-width: 1400px){
+    .seccion-contacto{
+        display: block;
+    }
+    iframe {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .p-contacto{
+        margin: 3rem;
+    }
+}
+
+/** Footer index **/
+.footer {
+    background-color: #838181;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 15rem;
+}
+
+.logo-footer {
+    width: 20rem;
+}
+
+.texto-footer {
+    text-align: center;
+}
+
+.copy {
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.redes a {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1rem 0;
+    justify-content: flex-end;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+
+.logo-redes {
+    width: 3rem;
+    height: auto;
+    margin-right: 1.2rem;
+}
+
+@media (max-width:1400px){
+    .footer {
+    background-color: #838181;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    }
+
+    .logo-footer {
+        width: 10rem;
+    }
+
+    .texto-footer {
+        text-align: center;
+        font-size: 1rem;
+        width: 40%;
+    }
+    .texto-footer h4{
+        font-size: 1.5rem;
+    }
+    .texto-footer p{
+        font-size: 1rem;
+    }
+
+    .copy {
+        background-color: #333333;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem 0;
+    }
+    .copy p{
+        font-size: 14px;
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+    }
+    .redes h4{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-right: 1.2rem;
+    }
+
+    .redes a {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 1rem 0;
+        justify-content: flex-end;
+        align-items: center;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    .logo-redes {
+        width: 2rem;
+        height: auto;
+        margin-right: 1.2rem;
+    }
+}
+
+/* Nosotros */
+.imagen-servicios {
+    width: 30rem;
+    height: auto;
+}
+
