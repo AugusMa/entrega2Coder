@@ -196,9 +196,8 @@ p {
 }
 
 /** contacto index **/
-.contacto {
+.contacto-index {
     background-color: rgba(0, 0, 0, .05);
-    
 }
 
 .titulo-contacto {
@@ -240,7 +239,7 @@ iframe {
     }
 }
 
-/** Footer index **/
+/** Footer **/
 .footer {
     background-color: #838181;
     display: flex;
@@ -271,7 +270,6 @@ iframe {
     
 }
 
-
 .redes a {
     display: flex;
     flex-direction: row-reverse;
@@ -282,7 +280,6 @@ iframe {
     text-decoration: none;
     font-size: 1.5rem;
 }
-
 
 .logo-redes {
     width: 3rem;
@@ -356,8 +353,85 @@ iframe {
 }
 
 /* Nosotros */
-.imagen-servicios {
-    width: 30rem;
+.nosotros {
+    display: flex;
+    padding: 0 4rem 3rem 4rem;
+}
+
+.imagen-nosotros {
+    width: 60rem;
     height: auto;
 }
 
+.p-nosotros {
+    margin-left: 3rem;
+    text-align: justify;
+}
+
+.servicios {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.imagen-servicios {
+    width: 30rem;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.contenido-servicios {
+    text-align: center;
+    margin: 2.5rem;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, .05);
+    border-radius: 1.5rem;
+    transition: ease-in-out .2s;
+}
+
+.contenido-servicios:hover {
+    transform: scale(1.08);
+}
+
+/** Propiedad **/
+.contenedor-propiedad {
+    display: flex;
+    padding: 5rem;
+}
+
+.texto-prop {
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 4rem;
+}
+
+.extras-prop {
+    background-color: rgba(0, 0, 0, .05);
+    padding: 2rem;
+    margin: 2rem 8rem 5rem 8rem;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+/** Contacto **/
+.formulario {
+    background-color: rgba(0, 0, 0, .05);
+    margin: 0 8rem;
+    padding: 3rem 3rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    font-size: 2rem;
+    margin: 0.8rem;
+}
+
+input {
+    padding: 1rem 20rem;
+}
+
+textarea {
+    padding: 0rem 17rem;
+}
