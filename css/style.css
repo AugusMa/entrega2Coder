@@ -392,6 +392,56 @@ iframe {
     transform: scale(1.08);
 }
 
+@media (max-width:1400px){
+    .nosotros {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        padding: 0 4rem 3rem 4rem;
+    }
+    
+    .imagen-nosotros {
+        width: 85%;
+        height: auto;
+        margin-bottom: 3rem;
+    }
+    
+    .p-nosotros {
+        margin-left: 3rem;
+        text-align: justify;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .servicios {
+        display: block;
+        margin-bottom: 5rem;
+    }
+    
+    .imagen-servicios {
+        width: 30rem;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    
+    .contenido-servicios {
+        text-align: center;
+        margin: 2.5rem;
+        padding: 2rem;
+        background-color: rgba(0, 0, 0, .05);
+        border-radius: 1.5rem;
+        transition: ease-in-out .2s;
+    }
+    .contenido-servicios p{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .contenido-servicios:hover {
+        transform: scale(1.08);
+    }
+}
+
 /** Propiedad **/
 .contenedor-propiedad {
     display: flex;
@@ -410,6 +460,30 @@ iframe {
     margin: 2rem 8rem 5rem 8rem;
     border-radius: 3rem;
     text-align: center;
+}
+
+@media(max-width:1400px){
+    .contenedor-propiedad {
+        display: block;
+        padding: 5rem;
+    }
+    .contenedor-propiedad img{
+        width: 100%;
+    }
+    
+    .texto-prop {
+        flex-direction: column;
+        text-align: justify;
+        margin-right: 2rem;
+    }
+    
+    .extras-prop {
+        background-color: rgba(0, 0, 0, .05);
+        padding: 2rem;
+        margin: 2rem 8rem 5rem 8rem;
+        border-radius: 3rem;
+        text-align: center;
+    }
 }
 
 /** Contacto **/
@@ -434,4 +508,31 @@ input {
 
 textarea {
     padding: 0rem 17rem;
+}
+
+@media (max-width:1400px){
+    .formulario {
+        background-color: rgba(0, 0, 0, .05);
+        margin: 0 10px;
+        padding: 3rem 3rem;
+        border-radius: 3rem;
+    }
+    .formulario form{
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    label {
+        display: block;
+        font-size: 2rem;
+        margin: 0.8rem;
+    }
+    
+    input {
+        width: 100%;
+    }
+    
+    textarea {
+        width: 100%;
+    }
 }
